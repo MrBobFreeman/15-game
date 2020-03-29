@@ -136,6 +136,7 @@ export default {
 
 .game {
   padding: 20px;
+  margin: 10px;
   background-color: $bgColorPrimary;
   &__field {
     display: flex;

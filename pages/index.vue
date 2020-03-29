@@ -85,6 +85,7 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 600px;
+  margin: 10px;
   line-height: 115%;
   font-size: $fontSizeMiddle;
   text-align: justify;
