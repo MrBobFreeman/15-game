@@ -1,7 +1,8 @@
 module.exports = {
-  /*
-   ** Headers of the page
-   */
+  router: {
+    base: "/15-game/"
+  },
+
   head: {
     title: 'Игра "Пятнашки"',
     meta: [
@@ -11,18 +12,10 @@ module.exports = {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
-  /*
-   ** Customize the progress bar color
-   */
-  loading: { color: "#3B8070" },
-  /*
-   ** Build configuration
-   */
-  build: {
-    /*
-     ** Run ESLint on save
-     */
 
+  loading: { color: "#3B8070" },
+
+  build: {
     publicPath: process.env.NODE_ENV === "production" ? "/15-game/" : "/",
 
     extend(config, { isDev, isClient }) {
@@ -36,16 +29,4 @@ module.exports = {
       }
     }
   }
-};
-const routerBase =
-  process.env.DEPLOY_ENV === "GH_PAGES"
-    ? {
-        router: {
-          base: "/15-games/"
-        }
-      }
-    : {};
-
-export default {
-  ...routerBase
 };
