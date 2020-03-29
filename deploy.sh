@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # остановить публикацию при ошибках
-set -e
+set -e 
 
 # сборка
 npm run build
