@@ -1,8 +1,6 @@
 # 15-game
 NuxtJs + VueJs
 
-Deployed on GitHubPages: https://mrbobfreeman.github.io/15-game/
-
 Install:
 1. Download repository or use 'git clone'.
 2. cd /download_folder/
@@ -15,8 +13,6 @@ Use:
 # 15-game
 NuxtJs + VueJs
 Игра в пятнашки, есть правила, анимация, отсчет времени игры, подсчет количества шагов и конечно же поздравление после победы.
-
-Можете посмотреть готовое приложение вживую: https://mrbobfreeman.github.io/15-game/
 
 Установка:
 1. Скачайте репозиторий или клонируйте при помощи 'git clone'.
