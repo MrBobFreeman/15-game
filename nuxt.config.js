@@ -16,7 +16,7 @@ module.exports = {
   loading: { color: "#3B8070" },
 
   build: {
-    publicPath: process.env.NODE_ENV === "production" ? "/15-game/" : "/",
+    publicPath: "/15-game/",
 
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
