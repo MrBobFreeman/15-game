@@ -3,7 +3,7 @@
 
 body {
   color: $colorWhite;
-  background: $bgColorPrimary url("/15-game/img/bg.jpeg") no-repeat center top;
+  background: $bgColorPrimary url("~static/img/bg.jpeg") no-repeat center top;
   background-size: cover;
   font-size: $fontSizeMain;
   font-family: $fontPrimary;
