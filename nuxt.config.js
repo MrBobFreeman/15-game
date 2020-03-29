@@ -1,6 +1,6 @@
 module.exports = {
   router: {
-    base: "/15-game/"
+    base: "/"
   },
 
   head: {
@@ -16,8 +16,6 @@ module.exports = {
   loading: { color: "#3B8070" },
 
   build: {
-    publicPath: "/15-game/",
-
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
