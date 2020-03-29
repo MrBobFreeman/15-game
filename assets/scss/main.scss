@@ -1,0 +1,35 @@
+@import "~assets/scss/reset";
+@import "~assets/scss/variables";
+
+body {
+  color: $colorWhite;
+  background: $bgColorPrimary url("/img/bg.jpeg") no-repeat center top;
+  background-size: cover;
+  font-size: $fontSizeMain;
+  font-family: $fontPrimary;
+
+}
+h1 {
+  font-size: $fontSizeLarge;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px;
+  font-size: $fontSizeMiddle;
+  color: $colorWhite;
+  background-color: $bgColorSecondary;
+  border: none;
+  &:hover {
+    background-color: $colorHoverItem;
+    cursor: pointer;
+  }
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
