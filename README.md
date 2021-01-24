@@ -1,6 +1,6 @@
 # 15-game
 
-NuxtJs + VueJs
+NuxtJs
 
 Deployed on GitHubPages: https://mrbobfreeman.github.io/15-game/
 
@@ -17,7 +17,7 @@ Use:
 
 # 15-game
 
-NuxtJs + VueJs
+NuxtJs
 
 Можете посмотреть готовое приложение: https://mrbobfreeman.github.io/15-game/
 
